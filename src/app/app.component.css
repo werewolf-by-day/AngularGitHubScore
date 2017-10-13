@@ -1,0 +1,41 @@
+* { 
+    margin: 0px;
+}
+
+div.container {
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+fieldset {
+    vertical-align: top;
+    width: 400px;
+    display: inline-block;
+    border: 0px;
+}
+
+fieldset.username input {
+    margin-left: 20px;
+    width: 230px;
+}
+
+fieldset.username button {
+    margin: 10px 0px 10px 0;
+    width: 380px;
+}
+
+fieldset.display {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+fieldset.display div {
+    padding: 20px;
+}
+
+.red { color: red }
+.orange { color: orange }
+.green { color: green }
+.blue { color: blue }
